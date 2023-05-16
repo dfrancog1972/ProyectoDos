@@ -1,3 +1,4 @@
+/* re inicio de valores al boy */
 body{
     margin: 0;
     padding: 0;       
@@ -5,6 +6,7 @@ body{
 }
 
 /* Estilos para el header y navegador */
+/* todas las etiquetas a funcionan sin decoracion y con la propiedad pointer para que cambie el cursor normal a una manita cuando se pase por el hipervinculo*/
 a{
     text-decoration: none;
     cursor: pointer;    
@@ -117,8 +119,25 @@ main .main-botones button{
     border-radius: 5px;
     padding: 0 15px;
     margin-right: 10px;
+    cursor: pointer;
 }
 main .main-botones button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 1px #dadce0;
+    color: #202124;
+}
+.b1{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px ;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.b1:hover{
     border: 1px solid #dadce0;
     box-shadow: 1px #dadce0;
     color: #202124;
