@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;       
+    font-size: 12px;
+}
+
+/* Estilos para el header y navegador */
+a{
+    text-decoration: none;
+    cursor: pointer;    
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .derecha{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+nav .derecha a{
+    margin-right: 10px;
+    color: rgb(18, 18, 18);
+}
+nav .derecha .icono{
+    background-image: url('./googleaps.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+nav .derecha img{
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+/* Estilos para el main */
+
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+main .main-logo{
+    width: 500px;
+    margin:0 auto;
+    margin-bottom: 35px;
+}
+main .main-logo img{
+    width: 280px;
+}
+
+main .main-entrada{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-entrada-contenedor{
+    width: 495px;
+    border-radius: 100px;
+    border: 1px solid #e1e2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-entrada input{
+    width: 450px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+main .main-entrada-contenedor :hover{
+    box-shadow: o 1px 6px 0 #20212447;    
+}
+main .main-entrada .icono-busqueda{
+    background-image: url('./lupagoogle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+main .main-entrada .microfono{
+    background-image: url('./microfono.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+main .main-botones{
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-botones div{
+    display: inline-block;
+}
+main .main-botones button{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px ;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+}
+main .main-botones button:hover{
+    border: 1px solid #dadce0;
+    box-shadow: 1px #dadce0;
+    color: #202124;
+}
+
+/* estilos del footer */
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-izquierda{
+    justify-content: left;
+}
+footer .footer-derecha{
+    justify-content: right;
+}
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
